@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/mainLay"
+        android:layout_width="500px"
+        android:layout_height="500px">
+
+        <ImageView
+            android:id="@+id/sticker"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <vishtechno.bkm.quickscreenshotcapture.view.AutoFitEditText
+            android:id="@+id/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/tra"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:isScrollContainer="false"
+            android:textColor="@color/white"
+            android:maxLength="150"
+            android:layout_margin="42px"
+            android:textSize="@dimen/_100sdp" />
+
+        <ImageView
+            android:id="@+id/border"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="42px"
+            android:background="@drawable/sticker_border" />
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/close" />
+
+        <ImageView
+            android:id="@+id/flip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flip" />
+
+        <ImageView
+            android:id="@+id/resize"
+            android:layout_width="90px"
+            android:layout_height="90px"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/resize" />
+
+        <ImageView
+            android:id="@+id/rotate"
+            android:layout_width="90px"
+            android:layout_height="90px"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/rotate" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

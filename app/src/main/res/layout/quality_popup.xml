@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/mainLay"
+        android:layout_width="423px"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/popup_small"
+        android:orientation="vertical"
+        android:paddingLeft="30px"
+        android:paddingTop="30px"
+        android:paddingRight="25px"
+        android:paddingBottom="30px"
+        android:gravity="center_horizontal">
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/transparent"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

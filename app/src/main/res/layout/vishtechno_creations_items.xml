@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/mainLay"
+        android:layout_width="464px"
+        android:layout_height="512px"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/mc_bg">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/play_icon"
+                android:layout_width="125px"
+                android:layout_height="125px"
+                android:layout_centerInParent="true"
+                android:src="@drawable/play_icon_click" />
+
+            <ImageView
+                android:id="@+id/border"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/mc_border"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

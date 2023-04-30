@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/start_rec_click"
+    android:orientation="vertical"
+    android:weightSum="10" >
+
+    <TextureView
+        android:id="@+id/video_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <Chronometer
+        android:id="@+id/my_timer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_6sdp" />
+
+    <vishtechno.bkm.quickscreenshotcapture.screenrecorder.NamedSpinner
+        android:id="@+id/aac_profile"
+        android:name="AAC Profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"/>
+
+    <vishtechno.bkm.quickscreenshotcapture.screenrecorder.NamedSpinner
+        android:id="@+id/video_codec"
+        android:name="Video Encoder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"/>
+
+    <vishtechno.bkm.quickscreenshotcapture.screenrecorder.NamedSpinner
+        android:id="@+id/audio_codec"
+        android:name="Audio Encoder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"/>
+
+    <vishtechno.bkm.quickscreenshotcapture.screenrecorder.NamedSpinner
+        android:id="@+id/avc_profile"
+        android:name="AVCProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"/>
+</RelativeLayout>

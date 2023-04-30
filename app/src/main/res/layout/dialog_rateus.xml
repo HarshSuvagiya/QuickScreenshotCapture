@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lratemain"
+        android:layout_width="932px"
+        android:layout_height="664px"
+        android:background="@drawable/rate_popup"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/star"
+            android:layout_width="474px"
+            android:layout_height="134px"
+            android:layout_marginTop="50px"
+            android:src="@drawable/star" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/arialbd"
+            android:text="Rate Us!"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_17sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/arial"
+            android:text="Tap a Rate to Rate it on Play Store"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/ivlater"
+                android:layout_width="340px"
+                android:layout_height="126px"
+                android:layout_weight="1"
+                android:src="@drawable/later_click" />
+
+            <ImageView
+                android:id="@+id/ivrate"
+                android:layout_width="340px"
+                android:layout_height="126px"
+                android:layout_weight="1"
+                android:src="@drawable/rate_click" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

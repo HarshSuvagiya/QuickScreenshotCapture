@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Quick Screenshot Capture</string>
+
+    <string name="privacy_link">https://docs.google.com/document/d/e/2PACX-1vThYsCZvmm9jtqhtCnWtKewUuEByvqOKOGzd_Xqoyzd7mqPB8uUOvcoJ6jOLKbV71aNWqr5nYsbodiK/pub</string>
+
+    <string name="admob_fullscreen_start_id">111</string>
+    <string name="admob_fullscreen_stitchedit_id">111</string>
+    <string name="admob_fullscreen_preview_id">111</string>
+    <string name="admob_fullscreen_editimage_id">111</string>
+    <string name="admob_fullscreen_videoplayer_id">111</string>
+
+    <string name="admob_banner_main_id">111</string>
+    <string name="admob_banner_mycreation_id">111</string>
+    <string name="admob_banner_start_id">111</string>
+    <string name="admob_banner_showdialog_id">1111</string>
+    <string name="admob_banner_editimage_id">111</string>
+    <string name="admob_banner_drawlay_id">111</string>
+    <string name="admob_banner_blur_id">1114</string>
+    <string name="admob_banner_text_id">11</string>
+    <string name="admob_banner_stitchedit_id">11</string>
+    <string name="admob_banner_screenrecord_id">1118</string>
+    <string name="admob_banner_preview_id">111</string>
+    <string name="admob_banner_videoplayer_id">1118</string>
+
+    <string name="admob_native_start_id">ca1118</string>
+    <string name="admob_native_exit_id">111609</string>
+
+    <string name="admob_publisher_id">111</string>
+    <string name="YOUR_ADMOB_APP_ID">ca-app-pub-3940256099942544~3347511713</string>
+</resources>
