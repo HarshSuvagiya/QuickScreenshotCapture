@@ -2,6 +2,9 @@
 
 Quick Screenshot Capture is the most simple, smallest and fastest screenshot taking app.
 
+## Screenshot
+<img src="ScreenshotCapture.png">
+
 ## Some feature listed over here:
 <ul>
 <li> Easy and user-friendly interface </li>
